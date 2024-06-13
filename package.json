@@ -1,0 +1,21 @@
+{
+  "name": "@nence/mymig",
+  "version": "0.0.1",
+  "description": "Migration tool for mysql that does not require up/down and is difference detection type.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesmith666/mymig.git"
+  },
+  "author": "nence",
+  "license": "MIT",
+  "dependencies": {
+    "mysql2": "^3.10.0"
+  }
+}

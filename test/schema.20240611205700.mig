@@ -1,0 +1,8 @@
+test {
+  :id varchar64 ! ascii/ascii_bin $UserID         -- 8L65Mm id
+  :emain varchar256 ! ascii/ascii_bin             -- 9JW31k email
+  @primary :id
+  @unique0 :email
+  @charset utf8mb4/utf8mb4_bin
+  @comment kYYp9k test
+}

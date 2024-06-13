@@ -1,0 +1,19 @@
+{
+  "name": "mymig",
+  "dockerComposeFile": "./docker-compose.yml",
+  "service": "main",
+  "workspaceFolder": "/usr/src/app",
+  "remoteUser": "root",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "oderwat.indent-rainbow",
+        "sasa.vscode-sass-format",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}

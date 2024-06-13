@@ -1,0 +1,6 @@
+test {
+  :id varchar64 ! ascii/ascii_bin $UserID         -- 8L65Mm ユーザーを識別するためのID
+  @primary :id
+  @charset utf8mb4/utf8mb4_bin
+  @comment kYYp9k ユーザー管理テーブル
+}
