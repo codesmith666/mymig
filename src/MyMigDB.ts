@@ -27,7 +27,11 @@ export class MyMigDB {
    */
   async get() {
     if (!this.con) {
-      this.con = await mysql.createConnection(this.dsn);
+      if (this.dsn.connectionLimit) {
+        this.con = await mysql.createConnection(this.dsn);
+      } else {
+        this.con = await mysql.createPool(this.dsn);
+      }
     }
     return this.con;
   }
